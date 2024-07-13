@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  
+  let Lyrics = "";
   return (
     <main>
     <body>
@@ -10,11 +10,12 @@ function App() {
         <header class="App-header">
           <img src="{logo}" alt="Logo" />
           <h1>LyricAI</h1>
-          <h4>Search for lyrics</h4>
+          <h6>Search with lyrics</h6>
         </header>	
         <header class="form">
-          <textarea  name="search-for-lyrics" class="search-for-lyrics" cols="30" rows="10" type="text" placeholder="Search for lyrics"/>
+          <textarea bind:value={Lyrics} name="search-for-lyrics" class="search-for-lyrics" cols="30" rows="10" type="text" placeholder="Search for lyrics"/>
         </header>
+        <h6>{Lyrics}</h6>
       </div>
     </body>
     </main>
