@@ -7,12 +7,12 @@ function App() {
     <body>
       <div className="App">
         <header class="App-header">
-          <img src="./logo.svg" alt="Logo" />
+          <img src="{logo}" alt="Logo" />
           <h1>LyricAI</h1>
-          <h2>Search for lyrics</h2>
+          <h4>Search for lyrics</h4>
         </header>	
         <header class="form">
-          <textarea name="lyrics" class="lyrics"></textarea>
+          <textarea name="search-for-lyrics" class="search-for-lyrics" cols="30" rows="10" type="text" placeholder="Search for lyrics"/>
         </header>
       </div>
     </body>
