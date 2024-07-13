@@ -1,12 +1,9 @@
-import logo from './logo.svg';
+import logo from '../public/trace.svg';
 import './App.css';
 
 function App() {
   return (
     <main>
-    <head>
-      <title>LyricAI</title>
-    </head>
     <body>
       <div className="App">
         <header class="App-header">
@@ -14,7 +11,7 @@ function App() {
           <h2>Search for lyrics</h2>
         </header>	
         <header class="form">
-          <input type="text" placeholder="Search for lyrics" />
+          <textarea name="search-for-lyrics" class="search-for-lyrics" cols="30" rows="10" type="text" placeholder="Search for lyrics"/>
         </header>
       </div>
     </body>
