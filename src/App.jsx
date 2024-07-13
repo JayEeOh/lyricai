@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let Lyrics = "";
+  
   return (
     <main>
     <body>
@@ -12,7 +14,7 @@ function App() {
           <h4>Search for lyrics</h4>
         </header>	
         <header class="form">
-          <textarea name="search-for-lyrics" class="search-for-lyrics" cols="30" rows="10" type="text" placeholder="Search for lyrics"/>
+          <textarea bind:value={Lyrics}  name="search-for-lyrics" class="search-for-lyrics" cols="30" rows="10" type="text" placeholder="Search for lyrics"/>
         </header>
       </div>
     </body>
