@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
           <h6>Search with lyrics</h6>
         </header>	
         <header class="form">
-          <textarea bind:value={Lyrics} name="search-for-lyrics" class="search-for-lyrics" cols="30" rows="10" type="text" placeholder="Search for lyrics"/>
+          <textarea bind:value={Lyrics} name="search-for-lyrics" class="search-for-lyrics" cols="30" rows="10" type="text"/>
         </header>
         <h6>{Lyrics}</h6>
       </div>
